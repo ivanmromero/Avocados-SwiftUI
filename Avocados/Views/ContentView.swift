@@ -21,12 +21,20 @@ struct ContentView: View {
                 }
                 .scrollIndicators(.hidden)
                 
+                // DISHERS
+                Text("Avocado Dishes")
+                    .fontWeight(.bold)
+                    .modifier(TitleModifier())
+                
+                DishesView()
+                    .frame(maxWidth: 640)
+                
                 // FOOTER
                 VStack(alignment: .center, spacing: 20) {
                     Text("All About Avocados")
-                        .font(.system(.title, design: .serif, weight: .bold))
-                        .foregroundStyle(.colorGreenAdaptive)
-                        .padding(8)
+                        .fontWeight(.bold)
+                        .modifier(TitleModifier())
+                    
                     Text("Everthing you wanted to know about avocados but were too afraid to ask.")
                         .font(.system(.body, design: .serif))
                         .multilineTextAlignment(.center)
@@ -40,6 +48,15 @@ struct ContentView: View {
         .scrollIndicators(.hidden)
         .ignoresSafeArea(.all)
         .padding(0)
+    }
+}
+
+struct TitleModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.system(.title, design: .serif))
+            .foregroundStyle(.colorGreenAdaptive)
+            .padding(8)
     }
 }
 
