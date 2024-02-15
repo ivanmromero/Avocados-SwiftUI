@@ -16,6 +16,8 @@
 		D2FF7DE42B7D885E00A49281 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF7DE32B7D885E00A49281 /* SettingsView.swift */; };
 		D2FF7DE62B7D889700A49281 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF7DE52B7D889700A49281 /* AppView.swift */; };
 		D2FF7DE82B7D946600A49281 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF7DE72B7D946600A49281 /* HeaderView.swift */; };
+		D2FF7DEA2B7DA25700A49281 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF7DE92B7DA25700A49281 /* HeaderModel.swift */; };
+		D2FF7DEC2B7DA2AE00A49281 /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF7DEB2B7DA2AE00A49281 /* HeaderData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		D2FF7DE32B7D885E00A49281 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		D2FF7DE52B7D889700A49281 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		D2FF7DE72B7D946600A49281 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		D2FF7DE92B7DA25700A49281 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		D2FF7DEB2B7DA2AE00A49281 /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 		D2FF7DDC2B7D87F600A49281 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				D2FF7DEB2B7DA2AE00A49281 /* HeaderData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -91,6 +96,7 @@
 		D2FF7DDD2B7D87FE00A49281 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D2FF7DE92B7DA25700A49281 /* HeaderModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -184,6 +190,8 @@
 				D2FF7DE22B7D885100A49281 /* RipeningStagesView.swift in Sources */,
 				D2FF7DCE2B7D770600A49281 /* AvocadosApp.swift in Sources */,
 				D2FF7DE02B7D882200A49281 /* AvocadosView.swift in Sources */,
+				D2FF7DEA2B7DA25700A49281 /* HeaderModel.swift in Sources */,
+				D2FF7DEC2B7DA2AE00A49281 /* HeaderData.swift in Sources */,
 				D2FF7DE82B7D946600A49281 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
