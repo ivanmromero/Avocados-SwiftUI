@@ -11,6 +11,10 @@
 		D2FF7DD02B7D770600A49281 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF7DCF2B7D770600A49281 /* ContentView.swift */; };
 		D2FF7DD22B7D770800A49281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2FF7DD12B7D770800A49281 /* Assets.xcassets */; };
 		D2FF7DD52B7D770800A49281 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2FF7DD42B7D770800A49281 /* Preview Assets.xcassets */; };
+		D2FF7DE02B7D882200A49281 /* AvocadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF7DDF2B7D882200A49281 /* AvocadosView.swift */; };
+		D2FF7DE22B7D885100A49281 /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF7DE12B7D885100A49281 /* RipeningStagesView.swift */; };
+		D2FF7DE42B7D885E00A49281 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF7DE32B7D885E00A49281 /* SettingsView.swift */; };
+		D2FF7DE62B7D889700A49281 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF7DE52B7D889700A49281 /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		D2FF7DD12B7D770800A49281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2FF7DD42B7D770800A49281 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2FF7DDB2B7D7E9C00A49281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D2FF7DDF2B7D882200A49281 /* AvocadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosView.swift; sourceTree = "<group>"; };
+		D2FF7DE12B7D885100A49281 /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
+		D2FF7DE32B7D885E00A49281 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D2FF7DE52B7D889700A49281 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +60,11 @@
 		D2FF7DCC2B7D770600A49281 /* Avocados */ = {
 			isa = PBXGroup;
 			children = (
+				D2FF7DDE2B7D880400A49281 /* Views */,
+				D2FF7DDD2B7D87FE00A49281 /* Models */,
+				D2FF7DDC2B7D87F600A49281 /* Data */,
 				D2FF7DDB2B7D7E9C00A49281 /* Info.plist */,
 				D2FF7DCD2B7D770600A49281 /* AvocadosApp.swift */,
-				D2FF7DCF2B7D770600A49281 /* ContentView.swift */,
 				D2FF7DD12B7D770800A49281 /* Assets.xcassets */,
 				D2FF7DD32B7D770800A49281 /* Preview Content */,
 			);
@@ -67,6 +77,32 @@
 				D2FF7DD42B7D770800A49281 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D2FF7DDC2B7D87F600A49281 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D2FF7DDD2B7D87FE00A49281 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D2FF7DDE2B7D880400A49281 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D2FF7DCF2B7D770600A49281 /* ContentView.swift */,
+				D2FF7DDF2B7D882200A49281 /* AvocadosView.swift */,
+				D2FF7DE12B7D885100A49281 /* RipeningStagesView.swift */,
+				D2FF7DE32B7D885E00A49281 /* SettingsView.swift */,
+				D2FF7DE52B7D889700A49281 /* AppView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +175,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2FF7DE42B7D885E00A49281 /* SettingsView.swift in Sources */,
 				D2FF7DD02B7D770600A49281 /* ContentView.swift in Sources */,
+				D2FF7DE62B7D889700A49281 /* AppView.swift in Sources */,
+				D2FF7DE22B7D885100A49281 /* RipeningStagesView.swift in Sources */,
 				D2FF7DCE2B7D770600A49281 /* AvocadosApp.swift in Sources */,
+				D2FF7DE02B7D882200A49281 /* AvocadosView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
