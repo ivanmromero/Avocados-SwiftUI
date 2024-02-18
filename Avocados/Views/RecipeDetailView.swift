@@ -11,6 +11,7 @@ struct RecipeDetailView: View {
     // MARK: - PROPERTIES
     let recipe: Recipe
     @State private var pulsate: Bool = false
+    @Environment(\.dismiss) private var dismiss
     
     // MARK: - BODY
     var body: some View {
@@ -80,7 +81,7 @@ struct RecipeDetailView: View {
         .ignoresSafeArea()
         .overlay(alignment: .topTrailing) {
             Button {
-                
+                dismiss()
             } label: {
                 Image(systemName: "chevron.down.circle.fill")
                     .font(.title)
