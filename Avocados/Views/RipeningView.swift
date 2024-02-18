@@ -30,7 +30,7 @@ struct RipeningView: View {
                         .frame(width: 120, height: 120, alignment: .center)
                 })
                 .zIndex(1)
-                .animation(.easeInOut(duration: 1), value: UUID())
+                .animation(.easeInOut(duration: 1), value: slideInAnimation)
                 .offset(y: slideInAnimation ? 55 : -55)
             
             VStack(alignment: .center, spacing: 10) {
@@ -103,7 +103,7 @@ struct RipeningView: View {
         }
         .ignoresSafeArea(.all)
         .onAppear {
-            slideInAnimation.toggle()
+            slideInAnimation = true
         }
     }
 }
