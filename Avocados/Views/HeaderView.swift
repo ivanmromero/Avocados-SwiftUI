@@ -18,6 +18,7 @@ struct HeaderView: View {
             .delay(0.25)
     }
     
+    // MARK: - BODY
     var body: some View {
         ZStack {
             Image(header.image)
@@ -60,6 +61,7 @@ struct HeaderView: View {
     }
 }
 
+// MARK: - PREVIEW
 #Preview(traits: .sizeThatFitsLayout) {
     HeaderView(header: headerData[1])
 }
